@@ -1,7 +1,25 @@
 /* Will be used when the screen width is 992px or more. */
 @media (min-width: 992px) {
+    .container {
+        background-color: blue;
+        
+    }
 }
 
 /* Will be used when the screen width is 992px or less. */
 @media (max-width: 992px) {
+    .container {
+        background-color: green;
+    }
 }
+
+.container div {
+    width: 300px;
+    border: 15px solid green;
+    margin: 20px;
+  }
+  
+  .container div:first-child,
+  .container div:last-child{
+    background-color: blue;
+  }
